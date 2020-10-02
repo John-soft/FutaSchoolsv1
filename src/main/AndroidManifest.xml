@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.johnsoft.futaschools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".books.Mts101Activity"></activity>
+        <activity android:name=".books.Book1Activity" />
+        <activity android:name=".PdfActivity" />
+        <activity
+            android:name=".FaqActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".smat_departments.TmtDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".smat_departments.PmtDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".smat_departments.EntDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".smat_departments.EcnDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".smat_departments.BusDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".smat_departments.AccDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sos_departments.StaDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sos_departments.PhyDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sos_departments.McbDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sos_departments.MtsDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sos_departments.CheDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sos_departments.BthDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sos_departments.BioDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sos_departments.BchDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".set_departments.UrpDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".set_departments.SvgDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".set_departments.QsvDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".set_departments.IddDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".set_departments.EsmDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".set_departments.BdgDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".set_departments.ArcDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sems_departments.RsgDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sems_departments.McsDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sems_departments.MstDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sems_departments.AgpDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".sems_departments.AgyDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".shht_departments.PhsDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".shht_departments.AnaDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".shht_departments.BimDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".soc_departments.SenDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".soc_departments.IftDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".soc_departments.IfsDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".soc_departments.CysDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".soc_departments.CscDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".saat_departments.FwtDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".saat_departments.FstDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".saat_departments.FatDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".saat_departments.EwmDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".saat_departments.CspDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".saat_departments.AphDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".saat_departments.AecDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".saat_departments.AreDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".seet_departments.IctDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity android:name=".seet_departments.MneDepartmentActivity" />
+        <activity
+            android:name=".seet_departments.MmeDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".seet_departments.MeeDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".seet_departments.IpeDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".seet_departments.EeeDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".seet_departments.CpeDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".seet_departments.CveDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity
+            android:name=".seet_departments.AgeDepartmentActivity"
+            android:parentActivityName=".schools.SchoolOfEngineeringActivity" />
+        <activity android:name=".AboutAppActivity" />
+        <activity
+            android:name=".schools.SchoolOfManagementActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".schools.SchoolOfScienceActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".schools.SchoolOfEnvironmentalActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".schools.SchoolOfEarthActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".schools.SchoolOfHealthActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".schools.SchoolOfComputingActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".schools.SchoolOfAgricActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".schools.SchoolOfEngineeringActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity
+            android:name=".AboutDeveloperActivity"
+            android:parentActivityName=".SchoolsDashBoardActivity" />
+        <activity android:name=".SchoolsDashBoardActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

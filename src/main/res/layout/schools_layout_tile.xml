@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="12dp">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="School Image"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/school_image"/>
+
+        <TextView
+            android:id="@+id/school_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCHOOL OF ENGINEERING AND ENGINEERING TECHNOLOGY (SEET)"
+            android:textAllCaps="true"
+            android:layout_toEndOf="@id/school_image"
+            android:layout_marginLeft="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+        <TextView
+            android:id="@+id/school_depts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 DEPARTMENTS"
+            android:textAllCaps="true"
+            android:layout_toEndOf="@id/school_image"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@id/school_name"
+            android:layout_marginTop="10dp"/>
+        
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/load_more"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/school_depts"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_colorFilter="@color/colorPrimary"
+            app:lottie_rawRes="@raw/next"
+            app:lottie_speed="0.5"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

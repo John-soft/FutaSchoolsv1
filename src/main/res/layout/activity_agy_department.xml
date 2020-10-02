@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sems_departments.AgyDepartmentActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/seet_toolbar"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/school_of_agric"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:subtitle="SEMS"
+        android:layout_alignParentStart="true"
+        app:title="SCHOOL OF EARTH AND MINERAL SCIENCES">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/dept_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seet_toolbar"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:text="DEPARTMENT OF APPLIED GEOLOGY (AGY)"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_horizontal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dept_name"
+        android:layout_marginTop="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/about_department_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/about_department_row"
+                tools:itemCount="1"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/admission_requirement_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/admission_requirement_row"
+                tools:itemCount="1"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/program_duration_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/program_duration_row"
+                tools:itemCount="1"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/graduation_requirement_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/graduation_requirement_row"
+                tools:itemCount="1"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/hod_profile_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/hod_profile_row"
+                tools:itemCount="1"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

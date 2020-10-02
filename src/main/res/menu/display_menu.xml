@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="About"
+        android:id="@+id/about_menu">
+        <menu>
+            <item
+                android:title="App"
+                android:id="@+id/about_app_menu"/>
+            <item
+                android:title="Developer"
+                android:id="@+id/about_developer_menu"/>
+        </menu>
+    </item>
+    <item android:title="Rate Our App"
+        android:icon="@drawable/ic_rate_start"/>
+    <item android:title="100Level (PDFs)"
+        android:id="@+id/pdf_files"/>
+    <item
+        android:title="School Anthem"
+        android:id="@+id/play_anthem"
+        android:icon="@drawable/ic_play_btn"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="FAQ"
+        android:id="@+id/frequently_asked_questions"
+        android:icon="@drawable/ic_chat"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Lecture Theatres"
+        android:id="@+id/lecture_theatre_pictures"
+        android:icon="@drawable/ic_schools_menu"
+        app:showAsAction="ifRoom"/>
+
+</menu>
